@@ -1,0 +1,132 @@
+<!--DEVELOPER: Chiara daSilva Santos, IS 117/004, Spring 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GoSwim Lessons</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Navigation-->
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="goswim.html">GoSwim</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="lessons.html" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lessons
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="lessons.html">Lessons</a>
+                            <a class="dropdown-item" href="survival.html">Survival Swimming</a>
+                            <a class="dropdown-item" href="strokes.html">Stroke Development</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<br>
+<div class="heading">
+Lessons
+</div>
+<div class="des2">
+    <p>
+        Our basic swimming techniques are designed to familiarize beginners with the water and also teach them how to stay afloat without much effort.
+
+        Afterward, beginners can turn their attention to a specific swimming stroke by practicing the series of drills for that swimming stroke.
+
+        Experienced swimmers who want to improve their swimming technique may also want to practice the series of swimming drills specific to each swimming stroke.
+    </p>
+</div>
+
+<!--cards-->
+<center>
+    <div class="card-wraper">
+        <div class="card-listing">
+            <div class="card-single">
+                <div class="img-wrap">
+                    <img class="card-img" src="images/floating.avif" alt="woman floating in a pool">
+                </div>
+                <div class="card-name">
+                    <p>Survival Swimming</p>
+                </div>
+                <div class="card-description">
+                    <p>Learn the basics, from floating to treading and breathing.</p>
+                </div>
+                <div class="card-click">
+                    <a href="survival.html">
+                        <p>Click here to learn more</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-listing">
+            <div class="card-single">
+                <div class="img-wrap">
+                    <img class="card-img" src="images/strokes.jpeg" alt="woman swimming freestyle stroke">
+                </div>
+                <div class="card-name">
+                    <p>Stroke Development</p>
+                </div>
+                <div class="card-description">
+                    <p>Learn how to swim the strokes. Freestyle, backstroke, etc. </p>
+                </div>
+                <div class="card-click">
+                    <a href="strokes.html">
+                        <p>Click here to learn more</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer page-footer font-small ">
+            <div class="container">
+                <div class="row">
+                    <span class="text-muted">&copy; Chiara daSilva Santos, 2023 |  Terms Of Use  |  Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</center>
+
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
